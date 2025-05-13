@@ -17,6 +17,7 @@ This repository implements an end-to-end maximum-likelihood phylogenetic analysi
 
 ## Repository Structure
 
+```text
 .
 ├── data/
 │   └── sequences.fasta             # Unaligned input sequences
@@ -31,3 +32,4 @@ This repository implements an end-to-end maximum-likelihood phylogenetic analysi
 ├── environment.yml                 # Conda environment spec
 ├── LICENSE
 └── README.md
+
