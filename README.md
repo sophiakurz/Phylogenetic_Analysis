@@ -18,17 +18,14 @@ This repository implements an end-to-end maximum-likelihood phylogenetic analysi
 ## Repository Structure
 
 ```text
+.
 ├── data/
-│   └──── sequences.fasta             
+│   └── sequences.fasta
 ├── results/
-│   ├──── sequences.aln.fasta         
-│   ├──── myrun.treefile              
-│   └──── myrun_phylogeny_final.png   
-├── scripts/
-│   ├──── align.py                    
-│   ├──── infer_tree.py               
-│   └──── plot_tree.py                
-├── environment.yml                 
+│   ├── sequences.aln.fasta
+│   ├── myrun.treefile
+│   └── myrun_phylogeny_final.png
+├── Phylogenetic_Analysis.ipynb
+├── environment.yml
 ├── LICENSE
 └── README.md
-
