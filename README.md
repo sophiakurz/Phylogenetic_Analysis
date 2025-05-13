@@ -25,6 +25,5 @@ This repository implements an end-to-end maximum-likelihood phylogenetic analysi
 │   ├── myrun.treefile
 │   └── myrun_phylogeny_final.png
 ├── Phylogenetic_Analysis.ipynb
-├── environment.yml
 ├── LICENSE
 └── README.md
