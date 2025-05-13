@@ -18,18 +18,17 @@ This repository implements an end-to-end maximum-likelihood phylogenetic analysi
 ## Repository Structure
 
 ```text
-.
 ├── data/
-│   └── sequences.fasta             # Unaligned input sequences
+│   └──── sequences.fasta             
 ├── results/
-│   ├── sequences.aln.fasta         # MAFFT alignment
-│   ├── myrun.treefile              # IQ-TREE2 output (Newick with supports)
-│   └── myrun_phylogeny_final.png   # Final tree image
+│   ├──── sequences.aln.fasta         
+│   ├──── myrun.treefile              
+│   └──── myrun_phylogeny_final.png   
 ├── scripts/
-│   ├── align.py                    # MAFFT wrapper script
-│   ├── infer_tree.py               # IQ-TREE2 wrapper script
-│   └── plot_tree.py                # Tree visualization script
-├── environment.yml                 # Conda environment spec
+│   ├──── align.py                    
+│   ├──── infer_tree.py               
+│   └──── plot_tree.py                
+├── environment.yml                 
 ├── LICENSE
 └── README.md
 
