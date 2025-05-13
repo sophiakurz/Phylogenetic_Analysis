@@ -14,3 +14,20 @@ This repository implements an end-to-end maximum-likelihood phylogenetic analysi
 - **Visualization** using Biopython’s `Phylo` and matplotlib
 - Configurable parameters via command-line flags
 - Automated figure export in high resolution
+
+## Repository Structure
+
+.
+├── data/
+│   └── sequences.fasta             # Unaligned input sequences
+├── results/
+│   ├── sequences.aln.fasta         # MAFFT alignment
+│   ├── myrun.treefile              # IQ-TREE2 output (Newick with supports)
+│   └── myrun_phylogeny_final.png   # Final tree image
+├── scripts/
+│   ├── align.py                    # MAFFT wrapper script
+│   ├── infer_tree.py               # IQ-TREE2 wrapper script
+│   └── plot_tree.py                # Tree visualization script
+├── environment.yml                 # Conda environment spec
+├── LICENSE
+└── README.md
