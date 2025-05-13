@@ -18,7 +18,6 @@ This repository implements an end-to-end maximum-likelihood phylogenetic analysi
 ## Repository Structure
 
 ```text
-.
 ├── data/
 │   └── sequences.fasta
 ├── results/
